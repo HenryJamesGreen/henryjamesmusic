@@ -5,9 +5,6 @@
 function About() {
   return (
     <div className="App">
-      <header className="App-header">
-        <ContactForm />
-      </header>
     </div>
   );
 }
