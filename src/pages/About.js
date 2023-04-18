@@ -31,11 +31,9 @@ function About() {
           sx={{ textAlign: "center", borderTop: "1px solid rgba(0,20,50,0.9)" }}
         >
           <Typography gutterBottom variant="h5" component="div">
-            Henry James Green
+            About Henry
           </Typography>
-          <Typography gutterBottom variant="body1" component="div">
-            A very warm welcome to my portfolio site!
-          </Typography>
+          <Typography gutterBottom variant="body1" component="div"></Typography>
           <Typography variant="body2" color="text.secondary">
             An experienced professional musician, composer and producer, Henry
             has worked with artists and songwriters including James Woodrow,

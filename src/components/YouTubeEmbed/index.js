@@ -7,7 +7,7 @@ import { Box } from "@mui/material";
 const StyledPaper = styled(Paper)(({ theme }) => ({
   position: "relative",
   overflow: "hidden",
-  width: "70%", // Set the width to a smaller value
+  width: "90%", // Set the width to a smaller value
   paddingTop: "39.25%" /* 16:9 aspect ratio with reduced height */,
   margin: "auto", // Center the video horizontally
   boxSizing: "border-box",

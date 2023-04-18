@@ -7,8 +7,9 @@ import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { TextField } from "@mui/material";
+import { FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
@@ -83,9 +84,6 @@ function ContactForm() {
         }}
       >
         <CardContent>
-          <Typography gutterBottom variant="h5">
-            Contact Me
-          </Typography>
           <Typography
             gutterBotom
             color="secondary"
@@ -95,7 +93,7 @@ function ContactForm() {
             Contact Henry at{" "}
             <a href="mailto:henryjamesgreenmusic@gmail.com">
               henryjamesgreenmusic@gmail.com
-            </a>{" "}
+            </a>
             , or simply fill out the form below:
           </Typography>
           <form onSubmit={handleSubmit}>
@@ -186,35 +184,27 @@ function ContactForm() {
         style={{ marginTop: "10px", marginBottom: "100px" }}
       >
         <Grid item>
-          <a
-            href={process.env.PUBLIC_URL + "/images/henryjamesgreenresume.pdf"}
-            target="_blank"
-          >
-            <FaFilePdf
-              className="icons pdf"
-              style={{ fontSize: 150, color: "White" }}
+          <a href="https://instagram.com/henryjames.music" target="_blank">
+            <FaInstagram
+              className="icons instagram"
+              style={{ fontSize: 50, color: "White" }}
+            />
+          </a>
+        </Grid>
+        <Grid item>
+          <a href="https://www.youtube.com/henryjamesmusic" target="_blank">
+            <FaYoutube
+              className="icons youtube"
+              style={{ fontSize: 50, color: "White" }}
             />
           </a>
         </Grid>
 
-        {/* Github */}
         <Grid item>
-          <a href="https://github.com/HenryJamesGreen" target="_blank">
-            <FaGithub
-              className="icons youtube"
-              style={{ fontSize: 150, color: "White" }}
-            />
-          </a>
-          {/* LinkedIn */}
-        </Grid>
-        <Grid item>
-          <a
-            href="https://www.linkedin.com/in/henryjamesgreen/"
-            target="_blank"
-          >
-            <FaLinkedin
-              className="icons linkedin"
-              style={{ fontSize: 150, color: "White" }}
+          <a href="https://facebook.com/henryjamesbass" target="_blank">
+            <FaFacebook
+              className="icons facebook"
+              style={{ fontSize: 50, color: "White" }}
             />
           </a>
         </Grid>
