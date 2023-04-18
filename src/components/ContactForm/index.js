@@ -34,8 +34,8 @@ function ContactForm() {
     event.preventDefault();
     emailjs
       .send(
-        "service_jfh2kxf",
-        "template_2j5119u",
+        "service_l2bbxab",
+        "template_n51mrkf",
         formData,
         "fvg_RcErhnk6slDnq"
       )
@@ -92,11 +92,11 @@ function ContactForm() {
             variant="body2"
             component="p"
           >
-            Contact me at{" "}
-            <a href="mailto:henryjamesgreen92@gmail.com">
-              henryjamesgreen92@gmail.com
+            Contact Henry at{" "}
+            <a href="mailto:henryjamesgreenmusic@gmail.com">
+              henryjamesgreenmusic@gmail.com
             </a>{" "}
-            , or simply fill out this form!
+            , or simply fill out the form below:
           </Typography>
           <form onSubmit={handleSubmit}>
             <Grid container spacing={1}>
