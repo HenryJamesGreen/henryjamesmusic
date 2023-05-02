@@ -6,7 +6,7 @@ const Spotify = () => {
       title="Spotify"
       style={{ borderRadius: "10px" }}
       src="https://open.spotify.com/embed/playlist/6MRyrt5jmW3wugGusg7vZC?utm"
-      width="100%"
+      width="80%"
       height="152"
       allowFullScreen=""
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
