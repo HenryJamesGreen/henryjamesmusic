@@ -4,15 +4,14 @@ import { Grid, Typography, Box } from "@mui/material";
 function Credits() {
   return (
     <Box>
-      <Grid container justifyContent="center">
-        <Grid item xs={12}>
-          <Typography variant="h4" align="center">
-            Credits Page
-          </Typography>
-        </Grid>
-        <Grid item xs={12}>
-          <Spotify />
-        </Grid>
+      <Grid
+        container
+        justifyContent="center"
+        alignItems="center"
+        borderTop="2px"
+        sx={{ marginTop: "20px" }}
+      >
+        <Spotify />
       </Grid>
     </Box>
   );
